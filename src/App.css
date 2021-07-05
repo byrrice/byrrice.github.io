@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.bgimg-1 {
+  background-image: url("images/rainy.gif");
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body, html {
+  font-family: 'Roboto Slab', sans-serif;
+  color: rgb(136, 136, 139);
+  /* 136,136,255 */
+  background-color: #222;
+  line-height: 1.8;
+  height: 100%;
+}
+
+.text-wrapper {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 5px;
+}

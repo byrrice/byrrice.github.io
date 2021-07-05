@@ -1,0 +1,28 @@
+a:link {
+    color: rgb(222, 184, 135);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(226, 171, 99);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightcoral;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(240, 160, 128);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 5px;
+}

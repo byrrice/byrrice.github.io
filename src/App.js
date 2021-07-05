@@ -1,11 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Routes from "./Routes";
+import { LinkContainer } from "react-router-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Isaac Ng</h1>
-      <h3>Life is soup and I am a spork.</h3>
+    <div className="App container py-3">
+      <Navbar collapseOnSelect bg="dark" expand="md" className="mb-3">
+        <LinkContainer to="/">
+          <Navbar.Brand className="font-weight-bold text-muted">
+            Home (currently under construction)
+          </Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Nav activeKey={window.location.pathname}>
+            <LinkContainer to="/workables">
+              <Nav.Link>Workables</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Routes />
     </div>
   );
 }
