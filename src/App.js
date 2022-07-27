@@ -23,16 +23,16 @@ function App() {
         </Router>
       </div>
       <footer id="footer">
-        <div class="content">
-          <nav class="menu">
-            <ul>
-              <li class="leaf"><a href="https://www.linkedin.com/in/sudarshan-pillai-00a586119/" target="_blank"><i class="icon fa fa-linkedin"></i></a></li>
-              <li class="leaf"><a href="https://github.com/sudarshan0419" target="_blank"><i class="icon fa fa-github"></i></a></li>
-              <li class="leaf"><a href="https://github.com/sudarshan0419" target="_blank"><i class="icon fa fa-file"></i></a></li>
-            </ul>
-          </nav>
-        </div>
-      </footer>
+          <div class="content">
+            <nav class="menu">
+              <ul>
+                <li class="leaf"><a href="https://www.linkedin.com/in/sudarshan-pillai-00a586119/" target="_blank"><i class="icon fa fa-linkedin"></i></a></li>
+                <li class="leaf"><a href="https://github.com/sudarshan0419" target="_blank"><i class="icon fa fa-github"></i></a></li>
+                <li class="leaf"><a href="https://github.com/sudarshan0419" target="_blank"><i class="icon fa fa-file"></i></a></li>
+              </ul>
+            </nav>
+          </div>
+        </footer>
     </div>
   );
 }

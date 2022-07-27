@@ -172,22 +172,6 @@ li {
   background: #F5EF17;
 }
 
-#footer{
-  margin-top: 1rem;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-#footer .content a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 40px;
-}
-
 .icon:link {
   color: rgb(222, 184, 135);
   background-color: transparent;
@@ -221,6 +205,21 @@ li.leaf {
   flex-grow: 0;
 }
 
+#footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#footer .content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+}
 .menu {
   display: inline-flex;
 }

@@ -1,16 +1,12 @@
 import React from "react";
 import "./About.css";
-import suds from "../images/suds.jpg";
 
 export default function About() {
     return (
-        <div className="suds">
+        <div className="isaac">
             <div className="lander">
                 <h2 id="title">Absorb my essence:</h2>
-                <p>I am currently pursuing a Master of Science in Electrical Engineering with a focus on machine vision. 
-                    Mainly, my research focuses on implementing deep learning based road lane detection.  
-                    I have been exploring many deep learning algorithms like Spatial CNN and LSTMs.
-                    i love tennis balls.</p>
+                <p>If life is a soup, I am a spork.</p>
             <h2>Career Goals:</h2>
             <ul id="career">
                 <li>Increase professional knowledge and training.</li>
