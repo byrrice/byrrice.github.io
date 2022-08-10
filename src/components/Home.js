@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import suds from "../images/suds.jpg";
+import { analytics } from "../firebase-config"
+import { logEvent} from "firebase/analytics";
 
 export default function Home() {
+
+  useEffect(()=> {
+    logEvent(analytics, "home page visit");
+  });
+
   return (
     <div className="isaac">
       <div className="lander">

@@ -5,6 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
+import * as firebase from "firebase/app";
+import {firebaseConfig} from "./firebase-config";
+
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
     <React.StrictMode>
