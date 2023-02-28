@@ -2,3 +2,5 @@
 
 - To instasll, npm run deploy
 - https://www.youtube.com/watch?v=Ht8Onfr3AR8
+
+-- yo yo
